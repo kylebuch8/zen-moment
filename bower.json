@@ -6,7 +6,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kylebuch8/zen-element.git"
+    "url": "git://github.com/kylebuch8/zen-moment.git"
   },
   "main": [
     "zen-moment.html"
