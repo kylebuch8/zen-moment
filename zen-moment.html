@@ -1,0 +1,16 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-ajax/iron-ajax.html">
+
+<dom-module id="zen-moment">
+    <template>
+        <iron-ajax auto url="http://api.github.com/zen" handle-as="text" last-response="{{ajaxResponse}}"></iron-ajax>
+        <span>{{ajaxResponse}}</span>
+    </template>
+    <script>
+
+    Polymer({
+        is: 'zen-moment'
+    });
+
+    </script>
+</dom-module>

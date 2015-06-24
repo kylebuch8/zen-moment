@@ -1,0 +1,26 @@
+{
+  "name": "zen-moment",
+  "version": "0.0.0",
+  "authors": [
+    "Kyle Buchanan <kylebuch8@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kylebuch8/zen-element.git"
+  },
+  "main": [
+    "zen-moment.html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.0.4",
+    "iron-ajax": "PolymerElements/iron-ajax#~1.0.2"
+  }
+}
