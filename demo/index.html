@@ -9,13 +9,34 @@
 
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
 
+  <link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
   <link rel="import" href="../zen-moment.html">
 
   <style>
+    html,
+    body {
+        height: 100%;
+    }
+
     body {
       text-align: center;
-      margin: 1em;
+      margin: 0;
       font-family: Roboto, 'Helvetica Neue', Helvetica, Arial;
+      background-image: url(https://enterprise.github.com/assets/aws/jetpack-octocat-clouds-11760c12e5f33fb4ecec2ce20b894461.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    zen-moment {
+        display: block;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 50px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        padding: 50px;
+        top: calc(50% - 100px);
+        left: calc(50% - 50px);
     }
   </style>
 
